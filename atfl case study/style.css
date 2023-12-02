@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none ;
+    
+}
+
+body{
+
+
+        background: rgb(44, 119, 67);
+        background: radial-gradient(circle, rgba(65,119,44,1) 0%, rgba(96,186,80,1) 100%);
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        height: 100vh;
+    
+}
+
+.main{
+    
+}
+
+.topnav{
+   
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    position: sticky;
+    background-color: #34592d;
+    top: 10;
+    left: 0;
+    z-index: 10000;
+    transition: 0.4s;
+    animation: transin 0.4s;
+    
+   
+}
+.rl{
+    height: 3vw;
+    max-width: 100%;
+}
+.logo{
+
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+    font-size: 3vw;
+    margin-left: -32vw;
+}
+
+.topnav .topul .topli{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+.topli{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.4s;
+    animation: transin 0.4s;
+}
+
+span{
+    color: #088395;
+}
+
+.topli:hover{
+    
+    transform: scale(1.3);
+    
+}
+
+
+.topul{
+    position: absolute;
+    margin-left: 70vw;
+}
+
+.mainpic{
+    max-width: 100%;
+    margin-top: 33vw;
+    height: 47vw;
+}
+
+.check{
+    max-width: 100%;
+    font-size: 4vw;
+}
+.h4u{
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+.checkdiv{
+    max-width: 100%;
+    margin-top: 35vw;
+    height: auto;
+    margin-left: 0vw;
+    position: absolute;
+    color: white;
+ 
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2svw;
+}
+
+.harvest{
+    background-color: black;
+    height: 5vw;
+    width: 15vw;
+    text-align: center;
+    right: 3%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.plant{
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    height: 4.3vw;
+    width: 14.3vw;
+    text-align: center;
+    position: absolute;
+    margin-left: -25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+
+}
+
+.pic1{
+    height: 15vw;
+    width: 20vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: -100vw;
+    text-align: center;
+    color: white;
+   
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.pic2{
+    height: 15vw;
+    width: 20vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: -40vw;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.pic3{
+    height: 15vw;
+    width: 20vw;
+    background-color: white;
+    position: absolute;
+    margin-top: -8vw;
+    margin-left: 20vw;
+    position: absolute;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+
+.lettuce1{
+    max-width: 100%;
+    height: 5vw;
+}
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.desc1{
+    color: black;
+    margin-top: 0vw;
+
+
+}
+
+.desc2{
+    margin-top: 2.7vw;
+    color: black;
+    font-size: 2vw;
+
+}
+
+.lettuce1{
+    margin-top: 3.2vw;
+}
